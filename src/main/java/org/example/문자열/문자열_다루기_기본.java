@@ -5,6 +5,13 @@ package org.example.문자열;
  *
  * 2) 대소문자 범위 확인
  * ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+ *
+ * 3) Character  비교
+ *  - 문자 리터널 비교
+ *   if (c < '0' || c > '9')
+ *
+ *  - 숫자 리터널 확인
+ *   if (c < 48 || c > 57)
  */
 public class 문자열_다루기_기본 {
     public static void main(String[] args) {
