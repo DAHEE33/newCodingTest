@@ -17,6 +17,19 @@ public class 문자열_내_마음대로_정렬하기 {
     }
 
     public static String[] solution(String[] strings, int n) {
+
+        //가장 많이 쓰는 종류!!
+//        Arrays.sort(strings, (s1, s2) -> {
+//            if (s1.charAt(n) == s2.charAt(n)) {
+//                return s1.compareTo(s2);
+//            } else {
+//                return Character.compare(s1.charAt(n), s2.charAt(n));
+//            }
+//        });
+//
+//        return strings;
+
+        //버블 정렬 이용
         // 문자열 배열의 길이를 구함
         int length = strings.length;
 
