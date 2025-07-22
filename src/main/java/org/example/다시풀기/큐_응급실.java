@@ -1,10 +1,10 @@
-package org.example.스택_큐;
+package org.example.다시풀기;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class 응급실 {
+public class 큐_응급실 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
